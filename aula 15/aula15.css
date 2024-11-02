@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: pink;
+    padding: 3vh;
+}
+
+h1 {
+    font-size: 2em;
+    color: palevioletred;
+}
+
