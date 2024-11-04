@@ -1,0 +1,167 @@
+    /* ( * ) usado para informar que existem itens que irão recair sobre todo o HTML */
+    * {
+        margin: 0;
+        /*zerando a margin (top, button, right, etc*/
+        padding: 0;
+        /* zerando o preenxhimento */
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /* habilitado uma fonte padrão para toda a página */
+        list-style: none;
+        /* removendo os estilos de listas*/
+    }
+
+    body{
+        background-color: #000000;
+    }
+
+    /*chamamos nosso cabeçalho para estilização (header)*/
+    header {
+        background-color: black;
+        /* habilitando uma cor de fundo*/
+        padding: 20px;
+        /*colocando um tamanho (preenchimento) no header*/
+        display: flex;
+        /* tornando nosso Header Flex - deixando os itens lado a lado*/
+        justify-content: space-around;
+        /* justificativa do conteúdo - Aqui podemos ajustar conforme nossa necessidade*/
+        align-items: center;
+        /* alinhamento na vertical, deixando habilitado ao centro*/
+    }
+
+    header img {
+        /*aqui chamamos nossa logo (img) para estilização*/
+        width: 200px;
+        /* largura da imagem*/
+        height: auto;
+        /* altura da iamgem*/
+    }
+
+    header nav ul {
+        /* aqui chamamos  nossa lista não ordenada para estilização*/
+        list-style: none;
+        /*estilo de lista desabilitado*/
+        display: flex;
+        /* tornando nossa Lista não Ordenada em (FLEX), deixando os itens pertencentes a ela, lado a lado*/
+    }
+
+    header nav ul li {
+        /* chamamos nossa Lista (LI) para estilização*/
+
+        margin-right: 10px;
+        /* espaçamennto entre as (LI)*/
+    }
+
+    header nav ul li a {
+        /* aqui chamamos nossa âncora (A) para estilização*/
+        text-decoration: none;
+        /* decoração do texto (sublinhado) desabilitado (none)*/
+        color: antiquewhite;
+        /* cor da letra*/
+    }
+
+    .header .letras{
+        color: antiquewhite;
+    }
+
+    .sessão-1 {
+        /* primeira sessão para estilização*/
+        background-image: url(Imagens/Grupo\ blessed.png);
+        padding: 250px;
+        /* preenchimento/tamanho da sessão*/
+
+        display: flex;
+        /* tornando a sessão flex*/
+        justify-content: center;
+        /* justificando conteúdo ao centro */
+        align-items: center;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 2em;
+        color: antiquewhite;
+        text-align: center;
+        
+
+    }
+
+    .sessão-1 button:hover{
+        transform: scale(1.1);
+    }
+
+    .sessão-1 button {
+        /* chamando o Botão da Primeira Sessão para estilização*/
+        width: 150px;
+        /* largura do botão*/
+        height: 50px;
+        /* altura do botão*/
+        background-color: rgba(192, 192, 192, 0.356);
+        /*cor de funfo */
+        border-radius: 5px;
+        /* arrendondamento da Borda*/
+        color: white;
+        cursor: pointer;
+        transition: 00.50s ease;
+
+    }
+
+    .sessão-2 {
+        /*Chamamos nossa segunda sessão para estilização*/
+        background-color: black;
+        padding: 150px;
+        /*preenchimento/ tamanho da sessão*/
+
+        display: flex;
+        /*Tornando a sessão Flex e deixando os itens lado a lado*/
+        justify-content: center;
+        /*Justificação do Conteúdo - Usando o Space-evenly como parâmetro*/
+        align-items: center;
+        /*Alinhamento dos itens na vertical - trazendo para o centro*/
+        background-size: cover;
+
+    }
+
+    .sessão-2 h1 {
+        color: white;
+        font-weight: 900;
+        margin: 15px;
+    }
+
+    .sessão-2 p {
+        color: white;
+        font-weight: 300;
+        margin: 15px;
+    }
+
+    .rodape{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding:25px ;
+        background: linear-gradient(#b3b3b3 8.33%, #000000 100%);
+        
+    }
+
+    .div-icons i:hover{
+        transition: 00.50s ease;
+        transform: scale(1.3);
+        background-color: rgba(192, 192, 192, 0.342);
+       
+        border-radius:10px ;
+    }
+    .div-icons a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .div-icons i{
+        padding: 7px;
+        font-size: 35px;
+    }
+    .div-line img{
+        width: 130px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
