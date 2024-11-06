@@ -1,0 +1,19 @@
+/*estilo basico para os cards*/
+
+.card {
+    background-color: #ae1a1a;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card p{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.card h3{
+    color: #ffffff;
+}
