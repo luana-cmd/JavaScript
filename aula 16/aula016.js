@@ -13,6 +13,7 @@ ScrollReveal().reveal('#sessão-1', {
     });
 
 
+
     const typed = new Typed('#Typed-text', {
         strings: ['Grupo Blessed', 'Mecânica Automotiva'],
         typedSpeend: 50, //velocidade que será digitado nosso text
@@ -20,6 +21,22 @@ ScrollReveal().reveal('#sessão-1', {
         loop: true, //faz com que o texto fique em execução infinita
         showCursor: false, //aqui estamos removendo o cursos padrão do HTML
         fadeOut: true, //aqui adiciona uma transição (opional)
-        
     });
     
+
+
+
+    $(document).ready(function() {
+        $('.blessed').slick({
+
+            slidesToShow: 3,
+    
+            slidesToScroll: 1,
+
+            infinite: true, 
+    
+            dots:true, 
+
+            arrows: true 
+        });
+    });
